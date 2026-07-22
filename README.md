@@ -3,15 +3,17 @@
 
 ## Executive Summary
 
-Hospitals participating in Medicare and Medicaid reimbursement programs have a financial incentive to maintain high patient satisfaction. Under these reimbursement models, a portion of hospital (up to 2%) funding may be withheld when patient satisfaction scores consistently fall below established performance benchmarks. In this scenario, hospital leadership established an internal patient satisfaction target of **3.8 out of 5** and wanted to identify where operational improvements could have the greatest impact without significantly increasing operating costs.
+Hospitals participating in Medicare and Medicaid reimbursement programs have a financial incentive to maintain high patient satisfaction. Under these reimbursement models, hospitals that consistently perform below established patient satisfaction benchmarks may have up to **2%** of their reimbursements withheld. In this scenario, hospital leadership established an internal patient satisfaction target of **3.8 out of 5** and sought to identify where operational improvements could have the greatest impact without significantly increasing operating costs.
 
-The analysis focused on one key business question:
+This analysis addressed one key business question:
 
-- **Where should the hospital focus resources to improve patient satisfaction without significantly increasing costs?**
+- Where should the hospital focus resources to improve patient satisfaction without significantly increasing costs?
 
-The analysis found that **no department met the hospital's 3.8 patient satisfaction target**. General Surgery recorded the lowest patient satisfaction while also having the longest average treatment time and the highest average treatment cost, making it the strongest candidate for operational review. Pediatrics came closest to achieving the target, while Cardiology maintained one of the highest patient satisfaction scores despite having the longest average patient wait time. Shift-level analysis also revealed that staffing allocation may not align with patient demand, presenting an opportunity to improve patient satisfaction through resource redistribution rather than increased staffing costs.
+Using operational data from the hospital's electronic health record (EHR), staffing logs, and departmental reference tables, five departments were evaluated across patient satisfaction, wait times, treatment duration, staffing levels, patient volume, treatment costs, and readmission rates. Excel was used to clean and integrate the data, build a relational data model, and create an interactive dashboard for exploratory analysis.
 
-While several meaningful relationships were identified, the available operational data cannot establish causation. Additional information, including patient acuity, physician communication, case complexity, bedside care, and staffing experience, would be required before recommending specific operational changes.
+The analysis found that **no department achieved the hospital's patient satisfaction target of 3.8**. General Surgery demonstrated the greatest opportunity for operational improvement, recording the lowest patient satisfaction score alongside the longest average wait time, longest treatment duration, and highest treatment costs. Emergency also emerged as a priority due to its high patient volume and below-target satisfaction score. Pediatrics came closest to meeting the satisfaction target, while staffing analysis revealed that Evening shifts experienced the highest patient demand despite generally having fewer staff than Day shifts. Conversely, Night shifts accounted for a relatively small share of patient visits while maintaining comparatively high staffing levels and strong patient satisfaction.
+
+These findings suggest that better aligning staffing resources with patient demand may improve patient satisfaction without increasing overall staffing costs. However, because the analysis is based solely on operational data, it identifies relationships rather than causation. Additional information, including patient acuity, case complexity, physician communication, staff experience, and bed availability, would be required before recommending specific operational changes.
 
 ---
 
