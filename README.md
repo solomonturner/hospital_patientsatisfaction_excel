@@ -81,7 +81,7 @@ Several patterns emerged during the exploratory analysis:
 
 ## Key Findings & Visualizations
 
-<img width="1649" height="800" alt="image" src="https://github.com/user-attachments/assets/59b3c119-24b3-4147-b254-407d3927a9dd" />
+<img width="1740" height="800" alt="image" src="https://github.com/user-attachments/assets/59b3c119-24b3-4147-b254-407d3927a9dd" />
 
 
 ### Headline Metrics
